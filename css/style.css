@@ -1,0 +1,318 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* the header section */
+
+.header{
+    background: #2d3c53;
+    margin: 0 -999rem;
+    padding: .25rem 999rem;
+    display: flex;
+}
+.header .left{
+    flex: 1;
+}
+.header .right{
+    /* flex: 2; */
+}
+.logo{
+    color: white;
+    text-transform: uppercase;
+}
+.right{
+    text-align: right;
+}
+.conference-date{
+    padding: 5px;
+    color: #819c73;
+    font-size: 12px;
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    display: inline;
+    padding: 4px;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* index main section */
+
+.index-main{
+    background: #2d3c53;
+    margin: 0 -999rem;
+    padding: .25rem 999rem;
+    text-align: center; 
+}
+
+.index-main h3{
+    color: #819c73;
+    font-size: 24px;
+}
+.index-main p{
+    color: white;
+    font-size: 16px;
+}
+#register-button{
+    color: white;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+#register-button:hover{
+    background-color: #819c73;
+    border: none;
+}
+#register-button a{
+    color: white;
+    text-decoration: none;
+}
+
+/* index-categories */
+
+.categories{
+    display: flex;
+    margin-top: 40px;
+}
+.speakers{
+    flex: 1;
+}
+.speakers img{
+    border-radius: 4px;
+}
+.schedule{
+    flex: 1;
+}
+.schedule img{
+    border-radius: 4px;
+}
+.venue{
+    flex: 1;
+}
+.venue img{
+    border-radius: 4px;
+}
+.speakers .details, .schedule .details, .venue .details{
+    width: 300px;
+}
+.speakers .title, .schedule .title, .venue .title{
+    color: #819c73;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.speakers .description-title, .schedule .description-title, .venue .description-title{
+    color: #819c73;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+/* footer */
+
+.footer{
+    background: #2d3c53;
+    margin: 0 -999rem;
+    padding: .25rem 999rem;
+    display: flex;   
+}
+.copyright{
+    color: white;
+    flex: 1;
+}
+.footer-menu{
+    flex: 2;
+    text-align: right;
+}
+
+/* main */
+
+.main{
+    background: #c1fff9;
+    background: linear-gradient(to right, rgb(154,222,175), rgb(242,248,204));
+    margin: 0 -999rem;
+    padding: .25rem 999rem;
+    text-align: center; 
+}
+.main h3{
+    color:#188177;
+    
+}
+.main p{
+    color: #767f6f;
+}
+
+/* speakers section */
+.speakers-section{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.first-speaker, .second-speaker{
+    display: flex;
+}
+.about-speaker{
+    flex:2;
+}
+.speaker-photo{
+    flex: 1;
+}
+.speaker-name{
+    color: #71a2a2;
+    font-size: 22px;
+    font-weight: bold;
+}
+.topic-title, .about-speaker-title{
+    color: #71a2a2;
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.holder{
+    margin-top: 60px;
+    border: 1px #767f6f solid;
+    border-radius: 4px;
+    text-align: center;
+}
+.holder img{
+    margin-top: -25px;
+    border-radius: 50%;
+}
+
+/* schedule section */
+
+.schedule-section{
+    margin-top: 40px;
+}
+.event-name{
+    color: #71a2a2;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+}
+.event-time{
+    color: #71a2a2;
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: right;
+}
+td, th{
+    padding: 20px 20px 20px 0;
+}
+.event-date{
+    border-bottom: 1px solid #71a2a2;
+    text-align: left;
+    color: #767f6f;
+    font-weight: lighter;
+}
+.event-description{
+    color: #767f6f;
+    border-bottom: 1px solid #71a2a2;
+}
+.event-host{
+    color: #71a2a2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* venue section */
+
+.venue-section{
+    margin-top: 40px;
+}
+
+.kcc{
+    display: flex;
+}
+.about-venue{
+    flex: 1;
+}
+.about-venue h3{
+    color: #71a2a2;
+    font-size: 18px;
+    font-weight: bold;
+}
+.about-venue p{
+    color: #71a2a2;
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.venue-photo{
+    flex: 2;
+    text-align: right;
+}
+.rbh{
+    margin-top: 20px;
+    display: flex;
+}
+
+/* registration section */
+
+.registration-section{
+    display: flex;
+    margin-top: 40px;
+}
+.registration-section .registration-description{
+    flex: 2;
+}
+.registration-section .registration-form{
+    margin-left: 20px;
+    flex: 1;
+}
+.registration-description .description-title{
+    color: #71a2a2;
+    font-size: 18px;
+    font-weight: bold;   
+}
+#pass-price{
+    color: #71a2a2;
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.registration-description p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.registration-description ul>li{
+    font-size: 14px;
+    font-weight: lighter;   
+}
+label{
+    color: #71a2a2;
+}
+#name, #email, #comments{
+    margin: 2px 0 20px 0;
+    width: 250px;
+    padding: 5px;
+}
+#passes{
+    margin: 2px 0 20px 0;
+    padding: 5px;   
+}
+#purchase-button{
+    width: 200px;
+    height: 40px;
+    background-color: #819c73;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 40px;
+    color: white;
+    text-transform: uppercase;
+}
