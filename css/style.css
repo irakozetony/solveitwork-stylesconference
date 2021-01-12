@@ -322,4 +322,8 @@ label{
     .header{
         background-color: rgb(255, 80, 80);
     }
+    .categories{
+        display: flex;
+        flex-direction: column;
+    }
 }
