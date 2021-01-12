@@ -5,6 +5,11 @@ body{
     overflow-x: hidden;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -22,7 +27,7 @@ body{
     flex: 1;
 }
 .header .right{
-    /* flex: 2; */
+    flex: 2;
 }
 .logo{
     color: white;
