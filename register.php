@@ -20,7 +20,7 @@
                     <li><a href="speakers.html">SPEAKERS</a></li>
                     <li><a href="schedule.html">SCHEDULE</a></li>
                     <li><a href="venue.html">VENUE</a></li>
-                    <li><a href="register.html">REGISTER</a></li>
+                    <li><a href="purchases.php">REGISTER</a></li>
                 </ul>
             </div>
         </div>
@@ -49,14 +49,14 @@
                 </ul>
             </div>
             <div class="registration-form">
-                <form action="">
-                    <label for="name">Name</label>
+                <form action="purchase.php" method="POST">
+                    <label for="fullname">Name</label>
                     <br>
-                    <input type="text" placeholder="Full name" id="name">
+                    <input type="text" placeholder="Full name" name="fullname" id="fullname">
                     <br>
                     <label for="email">Email</label>
                     <br>
-                    <input type="text" placeholder="Email address" id="email">
+                    <input type="text" placeholder="Email address" name="email" id="email">
                     <br>
                     <label for="passes">Number of passes</label>
                     <br>
@@ -66,10 +66,10 @@
                         <option value="3">3</option>
                     </select>
                     <br>
-                    <label for="comments">Comments</label>
+                    <label for="comment">Comment</label>
                     <br>
-                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-                    <button type="submit" id="purchase-button">Purchase</button>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                    <button type="submit" id="purchase-button" name="submit">Purchase</button>
                 </form>
             </div>
         </div>
@@ -80,7 +80,7 @@
                 <li><a href="speakers.html">SPEAKERS</a></li>
                 <li><a href="schedule.html">SCHEDULE</a></li>
                 <li><a href="venue.html">VENUE</a></li>
-                <li><a href="register.html">REGISTER</a></li>
+                <li><a href="register.php">REGISTER</a></li>
             </ul>
         </div>
     </div>
