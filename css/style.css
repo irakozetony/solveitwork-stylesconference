@@ -307,6 +307,9 @@ label{
 
 /* Responsive */
 @media screen and (max-width: 916px){
+    body{
+        overflow-x: hidden;
+    }
     .header{
         background-color: rgb(255, 80, 80);
     }
