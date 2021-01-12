@@ -89,35 +89,22 @@ body{
 .categories{
     display: flex;
     margin-top: 40px;
-    margin: auto;
 }
-.speakers{
+.category{
     flex: 1;
 }
-.speakers img{
+.category img{
     border-radius: 4px;
 }
-.schedule{
-    flex: 1;
-}
-.schedule img{
-    border-radius: 4px;
-}
-.venue{
-    flex: 1;
-}
-.venue img{
-    border-radius: 4px;
-}
-.speakers .details, .schedule .details, .venue .details{
+.category .details{
     width: 300px;
 }
-.speakers .title, .schedule .title, .venue .title{
+.category .title{
     color: #819c73;
     text-transform: uppercase;
     font-size: 14px;
 }
-.speakers .description-title, .schedule .description-title, .venue .description-title{
+.category .description-title, .schedule .description-title, .venue .description-title{
     color: #819c73;
     text-transform: capitalize;
     font-size: 18px;
@@ -320,42 +307,14 @@ label{
 
 /* Responsive */
 @media screen and (max-width: 916px){
-    body{
-        font-family: Arial, Helvetica, sans-serif;
-        width: 60%;
-        margin: auto;
-        overflow-x: hidden;
-    }
     .header{
         background-color: rgb(255, 80, 80);
     }
     .categories{
         display: flex;
         flex-direction: column;
-        margin-top: 40px;
+    }
+    .category{
         margin: auto;
     }
-    .speakers img{
-        border-radius: 4px;
-    }
-    .schedule img{
-        border-radius: 4px;
-    }
-    .venue img{
-        border-radius: 4px;
-    }
-    .speakers .details, .schedule .details, .venue .details{
-        width: 300px;
-    }
-    .speakers .title, .schedule .title, .venue .title{
-        color: #819c73;
-        text-transform: uppercase;
-        font-size: 14px;
-    }
-    .speakers .description-title, .schedule .description-title, .venue .description-title{
-        color: #819c73;
-        text-transform: capitalize;
-        font-size: 18px;
-    }
-    
 }
