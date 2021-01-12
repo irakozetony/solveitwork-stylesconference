@@ -316,3 +316,10 @@ label{
     color: white;
     text-transform: uppercase;
 }
+
+/* Responsive */
+@media screen and (max-width: 920){
+    .header{
+        background-color: coral;
+    }
+}
