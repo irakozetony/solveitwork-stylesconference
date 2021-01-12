@@ -320,6 +320,6 @@ label{
 /* Responsive */
 @media screen and (max-width: 916){
     .header{
-        background-color: coral;
+        background-color: rgb(255, 80, 80);
     }
 }
