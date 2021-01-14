@@ -320,4 +320,24 @@ label{
     .category{
         margin: auto;
     }
+    .first-speaker, .second-speaker{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .registration-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .kcc, .rbh{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .burger-menu{
+        display: block;
+        height: 40px;
+        width: 100%;
+        background: url(../images/menu-icon.png) no-repeat 98% center;
+        background-color: rgb(255, 80, 80);
+        cursor: pointer;
+    }
 }

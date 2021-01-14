@@ -8,7 +8,7 @@
     }
     $sql = "INSERT INTO user (fullname, email, passes, comment) VALUES ('$fullname', '$email', '$passes', '$comment')";
     if(mysqli_query($conn, $sql)){
-        header('Location: register.php');
+        header('Location: register.html');
     }
     else{
         echo 'query error: ' .mysqli_error($conn);
