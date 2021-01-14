@@ -340,4 +340,24 @@ label{
         background-color: rgb(255, 80, 80);
         cursor: pointer;
     }
+    .header .right .menu{
+        overflow: hidden;
+        height: 0;
+    }
+    .header .right .menu.open{
+        height: auto;
+    }
+    .header .right .menu li{
+        text-align: left;
+        width:100%;
+        margin: 0;
+
+    }
+    .header .right .menu li a{
+        color: white;
+        padding: 10px;
+        border-bottom: 1px solid #ffffff;
+        display: block;
+        margin: auto;
+    }
 }
